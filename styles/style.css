@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+* {
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: "Quicksand", "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3 {
+	color: #00a2c6;
+}
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #00a2c6;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav{
+	background-color: #00a2c6;
+	padding: 5px;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0, 0.2);
+	position: sticky;
+	top: 0;
+}
+
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+.profile header {
+	text-align: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 28px;
+}
+
+.featured-image{
+	max-height: 300px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profile img{
+	width: 200px;
+}
+
+.card{
+	box-shadow: 0 4px 15px 0 rgba(0,0,0, 0.3);
+	border-radius: 5px;
+	padding: 32px;
+	margin-top: 32px;
+}
+
+.jumbotron{
+	font-size: 16px;
+	padding: 60px;
+	background-color: #00c8eb;
+	text-align: center;
+	color: white;
+}
+
+main{
+	padding: 0 32px 32px;
+	overflow: auto;
+	padding-left 20px;
+}
+
+#content{
+	float:left ;
+	width: 75%;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	margin-top: 32px;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px){
+	#content,
+	aside{
+		width: 100%;
+		padding: 0;
+	}
+}
+
+header{
+	display: inline;
+}
